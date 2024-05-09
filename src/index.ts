@@ -15,7 +15,7 @@ async function main() {
     const chatCompletion: OpenAI.Chat.ChatCompletion =
       await openai.chat.completions.create(params);
 
-    console.log(chatCompletion);
+    console.log(chatCompletion.choices[0]);
   } catch (e) {
     console.error(e);
   }
