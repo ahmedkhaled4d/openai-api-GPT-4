@@ -1,3 +1,3 @@
-import completion from "./functions/fine-tuning";
+import completion from "./functions/chainModel";
 
 completion();

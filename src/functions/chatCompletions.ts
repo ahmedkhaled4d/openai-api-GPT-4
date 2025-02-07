@@ -31,5 +31,5 @@ export default async () => {
   }
   process.stdout.write("\n");
 
-  // console.log(completion.choices[0].message);
+  console.log(completion.choices[0].message);
 };
