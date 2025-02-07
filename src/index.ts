@@ -1,3 +1,3 @@
-import completion from "./functions/chainModel";
+import completion from "./functions/evaluation";
 
 completion();
