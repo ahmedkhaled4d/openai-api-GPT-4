@@ -1,3 +1,3 @@
-import completion from "./functions/evaluation";
+import completion from "./functions/nvidia-deepseek-ai";
 
 completion();
